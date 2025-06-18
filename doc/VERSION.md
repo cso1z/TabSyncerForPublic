@@ -1,6 +1,23 @@
 # TabSyncer Version Introduction
 
-## Version 0.1.0
+## Version 0.0.1
+### New Features
+- **Snapshot Configuration**
+  - Added snapshot saving configuration options
+  - Enhanced snapshot management flexibility
+
+### UI Improvements
+- **Snapshot Dialog**
+  - Optimized snapshot saving dialog style
+  - Improved user interaction experience
+
+### Bug Fixes
+- Fixed known issues
+- Enhanced overall stability
+
+---
+
+## Version 0.0.0
 
 ### Core Features
 - **Tab Snapshot System**
@@ -46,4 +63,4 @@
 
 ---
 
-[View in Chinese](VERSION.md) | [View in English](VERSION.en.md) 
+[View in Chinese](VERSION.zh.md) | [View in English](VERSION.md) 

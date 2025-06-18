@@ -1,6 +1,6 @@
 # TabSyncer
 
-[View in Chinese](README.md) | [View in English](README.en.md)
+[View in Chinese](../README.md) | [View in English](README.en.md)
 
 TabSyncer is a Chrome extension that helps users save snapshots of all open tabs with one click, supporting multi-device account login, snapshot synchronization, and management. It's perfect for users who frequently switch between multiple computers and need to batch manage and restore their browser workspace.
 
@@ -21,18 +21,37 @@ TabSyncer is a Chrome extension that helps users save snapshots of all open tabs
 
 ---
 
-## Usage Guide
-1. **Account Login**: First-time users need to log in via email verification code.
-2. **Save Snapshot**: Click the extension icon or right-click menu "Save Snapshot": Supports saving current tab, current window tabs, all window tabs, or saving all windows separately.
-3. **Manage Snapshots**: On the main page, you can group, rename, delete, merge, recover, and perform batch operations on snapshots.
-4. **Recycle Bin Group**: Deleted snapshots can be recovered in batch or individually from the recycle bin group.
-5. **Multi-Device Sync**: Log in with the same account on any device to automatically sync snapshots.
-6. **Non-Extension Management**: Visit [https://www.joker.blue/tab/main](https://www.joker.blue/tab/main) to manage the extension, avoiding plugin installation on temporary computers.
+## Use Cases
+
+### Case 1: Multi-device Work
+When switching between office and home work environments, there's no need to manually record and reopen tabs. After saving your workspace at the office, you can restore all tabs with one click at home and continue working seamlessly.
+
+### Case 2: Project Archiving
+During project development, you often need to save reference materials for different stages. Use TabSyncer to create independent snapshots for each project and add project names for easy future reference and recovery.
+
+### Case 3: Temporary Storage
+When browsing design inspiration or collecting materials, you might need to close the browser suddenly. Use TabSyncer to save all current tabs, and restore them with one click next time without losing any important information.
+
+### Case 4: Material Integration
+When collecting materials, you might save different snapshots multiple times. Use the merge feature to combine multiple snapshots into a complete collection for unified management and use.
+
+---
+
+## Installation Guide
+
+1. Visit GitHub repository: https://github.com/cso1z/TabSyncerForPublic
+2. Download the latest release version
+3. Extract the TabSyncer.zip file
+4. Open Chrome browser's extension page ([chrome://extensions/](chrome://extensions/))
+5. Enable developer mode
+6. Drag and drop the downloaded plugin file into the browser to install
+7. Register an account and log in
+8. Start using
 
 ---
 
 ## Screenshots
-![Function Screenshot](resource/function.png)
+![Function Screenshot](../resource/function.png)
 
 ---
 
