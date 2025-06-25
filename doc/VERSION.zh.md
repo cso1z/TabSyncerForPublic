@@ -1,3 +1,18 @@
+[查看中文版](VERSION.zh.md) | [View in English](VERSION.md) 
+
+## 版本 0.0.2
+### 新增功能
+- **快照搜索**
+  - 支持通过快照名称、标签名称、URL 进行搜索，快速定位快照
+
+### 界面优化
+- 优化交互体验
+
+### 问题修复
+- 修复已知问题
+
+---
+
 # TabSyncer 版本介绍
 
 ## 版本 0.0.1
@@ -63,4 +78,3 @@
 
 ---
 
-[查看中文版](VERSION.zh.md) | [View in English](VERSION.md) 

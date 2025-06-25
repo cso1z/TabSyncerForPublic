@@ -1,4 +1,17 @@
+
+[View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
+
+## Version 0.0.2
+### New Features
+- **Snapshot Search**
+  - Support searching snapshots by name, tag, or URL for quick access
+
+### UI Improvements
+- Improved interaction experience
+
+### Bug Fixes
+- Fixed known issues
 
 ## Version 0.0.1
 ### New Features
@@ -14,8 +27,6 @@
 ### Bug Fixes
 - Fixed known issues
 - Enhanced overall stability
-
----
 
 ## Version 0.0.0
 
@@ -62,5 +73,3 @@
   - Responsive design
 
 ---
-
-[View in Chinese](VERSION.zh.md) | [View in English](VERSION.md) 

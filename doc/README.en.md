@@ -18,6 +18,7 @@ TabSyncer is a Chrome extension that helps users save snapshots of all open tabs
 - **Management Mode**: Support batch selection, batch delete/recover/merge, with selected snapshots displayed at the top.
 - **Group Sidebar**: Recycle bin group has no more buttons, while regular groups can be renamed/deleted.
 - **Snapshot Item Behavior**: Snapshots in recycle bin cannot be renamed/grouped, with more menu only showing recovery option.
+- **Snapshot Search**: Quickly locate snapshots by searching snapshot name, tag name, or URL.
 
 ---
 
