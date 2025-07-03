@@ -2,6 +2,18 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+## Version 0.0.3
+### Major Optimizations
+- Interaction experience and snapshot list feature upgrades
+
+### Feature & Experience Upgrades
+- **Merge Snapshot Default Name Optimization**: When merging multiple snapshots, the merge dialog's name input will auto-fill with the first named snapshot, making the operation more convenient.
+- **Improved Snapshot Renaming**: After renaming a snapshot, the list updates the name locally without a full refresh for a smoother experience.
+- **Delete Tab Confirmation**: Added a confirmation dialog when deleting tabs within a snapshot to prevent accidental deletion, with multi-language support.
+- **Enhanced Multi-language Support**: New dialogs (such as delete tab confirmation) now support Chinese, English, Russian, etc.
+- **Snapshot List Loading Animation Optimization**: On refresh or first load, the snapshot list area shows a loading animation consistent with the empty state style. The animation supports custom images and fun tips for a better waiting experience.
+- **Less Prominent 'Load More' Button**: The 'Load More' button is visually lighter, less distracting but still clickable, avoiding competition with main content. The 'Loading' button matches the style and is less prominent but still recognizable when disabled.
+
 ## Version 0.0.2
 ### New Features
 - **Snapshot Search**
