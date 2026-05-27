@@ -2,65 +2,156 @@
 
 [View in Chinese](../README.md) | [View in English](README.en.md)
 
-TabSyncer is a Chrome extension that helps users save snapshots of all open tabs with one click, supporting multi-device account login, snapshot synchronization, and management. It's perfect for users who frequently switch between multiple computers and need to batch manage and restore their browser workspace.
+TabSyncer is a Chrome extension suite for managing browser workspaces. It is not only a snapshot saver. Its core loop connects the new tab entry point, Tabout for organizing currently open tabs, the home snapshot list with grouped views, and a relationship graph for rediscovering saved contexts.
+
+The main flow is: start from NewTab, organize currently open tabs with Tabout, save valuable context as snapshots, then manage those snapshots from the home page through lists, groups, search, and the graph view.
+
+---
+
+## Core Workflow
+
+### 1. NewTab: The Browser Entry Point
+
+TabSyncer can turn Chrome's new tab page into a lightweight workspace:
+
+- Pin frequently used URL shortcuts
+- Pin frequently used snapshot shortcuts
+- Preview and reopen tabs from a snapshot shortcut
+- Continue an unfinished organizer draft
+- See recommended snapshots you may want to return to
+- Jump into tab organization based on the current window state
+
+![NewTab workspace](../resource/newtab.png)
+
+### 2. Tabout: Organize Currently Open Tabs
+
+The NewTab organizer focuses on the tabs that are open right now:
+
+- Review tabs across the current window and other windows
+- Organize by window, groups, similar domains, and duplicate pages
+- Pick tabs to keep and close tabs you no longer need
+- Save organized selections as new snapshots
+- Resume an unfinished organization draft
+
+This solves the moment when the browser has become too noisy and you need to turn the current mess back into a clean workspace.
+
+![Tabout open-tab management](../resource/tabout.png)
+
+### 3. Home: Snapshot List, Groups, And Long-Term Management
+
+The home page is where saved snapshots become durable knowledge:
+
+- View snapshots by all, temporary, group, and trash views
+- Manage snapshot groups and grouped snapshot lists
+- Search by snapshot name, tab title, URL, and date range
+- Rename, delete, restore, merge, and batch-manage snapshots
+- Add more web pages to an existing snapshot
+- Add a snapshot or a tab inside a snapshot back to NewTab shortcuts
+
+This solves what happens after saving: finding, archiving, merging, and continuing to maintain the context.
+
+![Home snapshot list and groups](../resource/home.png)
+
+### 4. Relationship Graph: Rediscover Snapshot Connections
+
+TabSyncer also provides a snapshot relationship graph:
+
+- Explore snapshots as a connected graph
+- Use tags, titles, and URLs to surface related snapshots
+- Revisit project research, study material, and long-running browser contexts
+
+This makes snapshots more than a flat list. They can be rediscovered through relationships.
+
+![Snapshot relationship graph](../resource/contextgraph.png)
 
 ---
 
 ## Key Features
-- **One-Click Snapshot**: Save all tabs in the current window with cloud synchronization.
-- **Snapshot Group Management**: Customize groups to categorize different types of snapshots.
-- **Multi-Device Sync**: Support account login for syncing snapshots across multiple devices.
-- **Batch Tab Recovery**: Open all tabs from a snapshot with one click.
-- **Snapshot Management**: Rename, delete, group, merge, add, and batch operations for flexible snapshot management.
-- **Recycle Bin Group**: Deleted snapshots go to the recycle bin, with batch or individual recovery options.
-- **Recovery Features**: Support batch and individual snapshot recovery, with snapshots returning to their original groups.
-- **Multi-language Support**: All operations, popups, and buttons support multiple languages with complete i18n configuration.
-- **Management Mode**: Support batch selection, batch delete/recover/merge, with selected snapshots displayed at the top.
-- **Group Sidebar**: Recycle bin group has no more buttons, while regular groups can be renamed/deleted.
-- **Snapshot Item Behavior**: Snapshots in recycle bin cannot be renamed/grouped, with more menu only showing recovery option.
-- **Snapshot Search**: Quickly locate snapshots by searching snapshot name, tag name, or URL.
+
+- **One-click snapshots**: Save the current tab, current window, all windows, or split each window into its own snapshot.
+- **NewTab workspace**: Search, shortcuts, snapshot entries, and work-continuity prompts in one place.
+- **Tabout open-tab management**: Organize currently open tabs, handle duplicates and groups, then save the result.
+- **Snapshot list and groups**: Manage snapshots by views and groups for long-term storage.
+- **Snapshot relationship graph**: Understand saved contexts from a relationship-based view.
+- **Add pages to existing snapshots**: Add an open tab or manually entered URL into an existing snapshot.
+- **Multi-device sync**: Sign in with the same account and sync snapshots across devices.
+- **Shortcut maintenance**: Add URLs, snapshots, and individual saved pages to NewTab shortcuts.
+- **Recycle bin recovery**: Deleted snapshots are recoverable individually or in batches.
+- **Multi-language UI**: Core actions, dialogs, and prompts support multiple languages.
 
 ---
 
 ## Use Cases
 
-### Case 1: Multi-device Work
-When switching between office and home work environments, there's no need to manually record and reopen tabs. After saving your workspace at the office, you can restore all tabs with one click at home and continue working seamlessly.
+### Work Across Devices
 
-### Case 2: Project Archiving
-During project development, you often need to save reference materials for different stages. Use TabSyncer to create independent snapshots for each project and add project names for easy future reference and recovery.
+Save a set of work tabs at the office, sign in at home, and restore the same context without hunting every page down again.
 
-### Case 3: Temporary Storage
-When browsing design inspiration or collecting materials, you might need to close the browser suddenly. Use TabSyncer to save all current tabs, and restore them with one click next time without losing any important information.
+### Clean Up A Noisy Browser
 
-### Case 4: Material Integration
-When collecting materials, you might save different snapshots multiple times. Use the merge feature to combine multiple snapshots into a complete collection for unified management and use.
+Open Tabout from NewTab, organize currently open tabs, close duplicates, and save the important context as a snapshot.
 
----
+### Project Research
 
-## Installation Guide
+Save docs, dashboards, repositories, test environments, and design references as project snapshots that can keep growing over time.
 
-1. Visit GitHub repository: https://github.com/cso1z/TabSyncerForPublic
-2. Download the latest release version
-3. Extract the TabSyncer.zip file
-4. Open Chrome browser's extension page ([chrome://extensions/](chrome://extensions/))
-5. Enable developer mode
-6. Drag and drop the downloaded plugin file into the browser to install
-7. Register an account and log in
-8. Start using
+### Rediscover Past Context
+
+Use grouped snapshot lists on the home page, or open the graph view to find related historical material.
 
 ---
 
-## Screenshots
-![Function Screenshot](../resource/function.png)
+## Installation
+
+### Option 1: Install From Chrome Web Store
+
+The recommended way is to install TabSyncer directly from Chrome Web Store:
+
+[TabSyncer - Chrome Web Store](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim)
+
+### Option 2: Install The Release Package
+
+1. Download `TabSyncer.zip` from this repository or the latest release.
+2. Extract `TabSyncer.zip`.
+3. Open `chrome://extensions/` in Chrome.
+4. Enable Developer mode.
+5. Click "Load unpacked".
+6. Select the extracted extension directory.
+
+### Option 3: Use The Web Manager
+
+For temporary snapshot viewing or management, you can also open:
+
+[https://www.joker.blue/tab/main](https://www.joker.blue/tab/main)
 
 ---
 
-## Contact & Feedback
-For questions or suggestions, feel free to create an issue or PR.
+## Usage Flow
+
+1. **Sign in**: Use email verification or GitHub login.
+2. **Set up NewTab**: Enable the TabSyncer new tab page and add URL or snapshot shortcuts.
+3. **Organize open tabs**: Enter Tabout from NewTab and organize the tabs that are currently open.
+4. **Save snapshots**: Save the current window, all windows, or organized selections as snapshots.
+5. **Manage snapshots**: Use the home page list, groups, search, merge, and recovery tools.
+6. **Open the graph**: Use the relationship graph to understand how snapshots connect.
+7. **Continue work**: Restore snapshots from NewTab shortcuts or the home page.
 
 ---
 
-## Version Information
-Check out the [Version Introduction](VERSION.md) for detailed features and updates.
+## Feedback
 
+Questions, ideas, and pull requests are welcome.
+
+---
+
+## Version Notes
+
+Historical version notes are available in [VERSION.md](VERSION.md).
+
+---
+
+## Join The Community
+
+Join the TabSyncer QQ group to discuss usage tips, share feedback, suggest features, and get early access notes for beta builds. It is a good place for users who want to help shape the browser workspace workflow.
+
+![TabSyncer QQ group](../resource/qq.png)
