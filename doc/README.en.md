@@ -10,7 +10,15 @@ The main flow is: start from NewTab, organize currently open tabs with Tabout, s
 
 ## Core Workflow
 
-### 1. NewTab: The Browser Entry Point
+Beyond that core loop, TabSyncer also lets you import the Chrome bookmarks you already have and export saved snapshots to local files after they have been organized, completing the full path of import, organization, preservation, and export.
+
+### 1. Import Chrome Bookmarks: Bring Existing Materials Into The Workspace
+
+If you have already accumulated a large set of bookmarks in Chrome, you can import them directly into TabSyncer and use them as the starting point for further organization, enrichment, and long-term preservation.
+
+![Import Chrome bookmarks](../resource/import-chrome-bookmarks.png)
+
+### 2. NewTab: The Browser Entry Point
 
 TabSyncer can turn Chrome's new tab page into a lightweight workspace:
 
@@ -23,7 +31,7 @@ TabSyncer can turn Chrome's new tab page into a lightweight workspace:
 
 ![NewTab workspace](../resource/newtab.png)
 
-### 2. Tabout: Organize Currently Open Tabs
+### 3. Tabout: Organize Currently Open Tabs
 
 The NewTab organizer focuses on the tabs that are open right now:
 
@@ -37,7 +45,7 @@ This solves the moment when the browser has become too noisy and you need to tur
 
 ![Tabout open-tab management](../resource/tabout.png)
 
-### 3. Home: Snapshot List, Groups, And Long-Term Management
+### 4. Home: Snapshot List, Groups, And Long-Term Management
 
 The home page is where saved snapshots become durable knowledge:
 
@@ -52,7 +60,7 @@ This solves what happens after saving: finding, archiving, merging, and continui
 
 ![Home snapshot list and groups](../resource/home.png)
 
-### 4. Relationship Graph: Rediscover Snapshot Connections
+### 5. Relationship Graph: Rediscover Snapshot Connections
 
 TabSyncer also provides a snapshot relationship graph:
 
@@ -64,6 +72,12 @@ This makes snapshots more than a flat list. They can be rediscovered through rel
 
 ![Snapshot relationship graph](../resource/contextgraph.png)
 
+### 6. Export Snapshots To Local Files: Take Preserved Results With You
+
+Organized snapshots do not have to stay only inside TabSyncer. You can export them to local files for backup, migration, or offline keeping, which closes the loop for this workspace flow.
+
+![Export snapshots to local files](../resource/export-snapshot-local.png)
+
 ---
 
 ## Key Features
@@ -71,13 +85,27 @@ This makes snapshots more than a flat list. They can be rediscovered through rel
 - **One-click snapshots**: Save the current tab, current window, all windows, or split each window into its own snapshot.
 - **NewTab workspace**: Search, shortcuts, snapshot entries, and work-continuity prompts in one place.
 - **Tabout open-tab management**: Organize currently open tabs, handle duplicates and groups, then save the result.
+- **Import Chrome bookmarks**: Bring existing Chrome bookmarks into TabSyncer and turn them into work materials you can keep organizing and preserving.
 - **Snapshot list and groups**: Manage snapshots by views and groups for long-term storage.
 - **Snapshot relationship graph**: Understand saved contexts from a relationship-based view.
 - **Add pages to existing snapshots**: Add an open tab or manually entered URL into an existing snapshot.
+- **Export snapshots to local files**: Export saved snapshots to your local device for backup, migration, or offline keeping.
 - **Multi-device sync**: Sign in with the same account and sync snapshots across devices.
 - **Shortcut maintenance**: Add URLs, snapshots, and individual saved pages to NewTab shortcuts.
 - **Recycle bin recovery**: Deleted snapshots are recoverable individually or in batches.
 - **Multi-language UI**: Core actions, dialogs, and prompts support multiple languages.
+
+### Import Chrome Bookmarks
+
+You can start by importing the bookmarks you have already accumulated in Chrome, then continue organizing, enriching, and managing them inside TabSyncer as snapshots.
+
+![Import Chrome bookmarks](../resource/import-chrome-bookmarks.png)
+
+### Export Snapshots To Local Files
+
+Saved snapshots do not have to stay only inside TabSyncer. You can export them to local files to complete the full loop from import, organization, and preservation to local export.
+
+![Export snapshots to local files](../resource/export-snapshot-local.png)
 
 ---
 
@@ -129,12 +157,14 @@ For temporary snapshot viewing or management, you can also open:
 ## Usage Flow
 
 1. **Sign in**: Use email verification or GitHub login.
-2. **Set up NewTab**: Enable the TabSyncer new tab page and add URL or snapshot shortcuts.
-3. **Organize open tabs**: Enter Tabout from NewTab and organize the tabs that are currently open.
-4. **Save snapshots**: Save the current window, all windows, or organized selections as snapshots.
-5. **Manage snapshots**: Use the home page list, groups, search, merge, and recovery tools.
-6. **Open the graph**: Use the relationship graph to understand how snapshots connect.
-7. **Continue work**: Restore snapshots from NewTab shortcuts or the home page.
+2. **Import existing materials**: Import Chrome bookmarks to quickly bring your previously collected links into the current workspace.
+3. **Set up NewTab**: Enable the TabSyncer new tab page and add URL or snapshot shortcuts.
+4. **Organize open tabs**: Enter Tabout from NewTab and organize the tabs that are currently open.
+5. **Save snapshots**: Save the current window, all windows, or organized selections as snapshots.
+6. **Manage snapshots**: Use the home page list, groups, search, merge, and recovery tools.
+7. **Open the graph**: Use the relationship graph to understand how snapshots connect.
+8. **Export to local files**: Export organized snapshots to local files for backup, migration, or offline keeping.
+9. **Continue work**: Restore snapshots from NewTab shortcuts or the home page.
 
 ---
 

@@ -2,6 +2,29 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+## Version 0.3.0
+### Highlights
+- Added support for importing Chrome bookmarks
+- Added support for exporting snapshots to local files
+- Other optimizations
+
+## Version 0.2.5
+### Highlights
+- NewTab now lets you continue unfinished grouping work and restore tabs that were closed during the previous session
+- Snapshot shortcuts can detect the same page that is already open and provide direct "Opened / Jump to" actions
+- The relationship graph can now be displayed directly on the home page for smoother snapshot revisit workflows
+- Improved multi-language support across NewTab, Tabout, and the relationship graph
+
+## Version 0.2.0
+TabSyncer v0.2.0 was a major update. It was no longer just a snapshot list tool, but a more complete workflow built around current browser work, long-term snapshots, and contextual relationships.
+
+### Highlights
+- Added the NewTab home entry and turned the new tab page into the TabSyncer workspace
+- Added Tabout for managing currently open browser tabs
+- Added a richer home snapshot list and grouped views for long-term organization and retrieval
+- Added the knowledge graph / relationship graph to explore contextual links between snapshots and pages
+- Added GitHub sign-in as a foundation for the account system, data sync, and multi-device workflows
+
 ## Version 0.0.3
 ### Major Optimizations
 - Interaction experience and snapshot list feature upgrades
