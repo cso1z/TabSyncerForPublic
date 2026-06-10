@@ -85,27 +85,15 @@ Organized snapshots do not have to stay only inside TabSyncer. You can export th
 - **One-click snapshots**: Save the current tab, current window, all windows, or split each window into its own snapshot.
 - **NewTab workspace**: Search, shortcuts, snapshot entries, and work-continuity prompts in one place.
 - **Tabout open-tab management**: Organize currently open tabs, handle duplicates and groups, then save the result.
-- **Import Chrome bookmarks**: Bring existing Chrome bookmarks into TabSyncer and turn them into work materials you can keep organizing and preserving.
+- **Import Chrome bookmarks**: Import existing Chrome bookmarks into TabSyncer as the starting point for further organization and preservation.
 - **Snapshot list and groups**: Manage snapshots by views and groups for long-term storage.
 - **Snapshot relationship graph**: Understand saved contexts from a relationship-based view.
 - **Add pages to existing snapshots**: Add an open tab or manually entered URL into an existing snapshot.
-- **Export snapshots to local files**: Export saved snapshots to your local device for backup, migration, or offline keeping.
+- **Export snapshots to local files**: Export snapshots to local files for backup, migration, or offline keeping.
 - **Multi-device sync**: Sign in with the same account and sync snapshots across devices.
 - **Shortcut maintenance**: Add URLs, snapshots, and individual saved pages to NewTab shortcuts.
 - **Recycle bin recovery**: Deleted snapshots are recoverable individually or in batches.
 - **Multi-language UI**: Core actions, dialogs, and prompts support multiple languages.
-
-### Import Chrome Bookmarks
-
-You can start by importing the bookmarks you have already accumulated in Chrome, then continue organizing, enriching, and managing them inside TabSyncer as snapshots.
-
-![Import Chrome bookmarks](../resource/import-chrome-bookmarks.png)
-
-### Export Snapshots To Local Files
-
-Saved snapshots do not have to stay only inside TabSyncer. You can export them to local files to complete the full loop from import, organization, and preservation to local export.
-
-![Export snapshots to local files](../resource/export-snapshot-local.png)
 
 ---
 
