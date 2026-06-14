@@ -2,6 +2,20 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+## Version 0.3.5
+### Highlights
+- Brand new UUID account system that provides a lighter and clearer login and account management experience.
+- Automatic following of browser language support, with the option to manually select language in settings.
+- Optimized stability of Tabout group sorting and consistency of waterfall flow display.
+- New users will have the new tab workspace enabled by default.
+
+### Fixes and Improvements
+- Fixed issues related to snapshots, grouping, sidebar counts, and graph filtering.
+- Strengthened data operation permission protection and interface parameter verification.
+- Improved the stability of tag organization, snapshot management, and page state synchronization.
+
+
+
 ## Version 0.3.0
 ### Highlights
 - Added support for importing Chrome bookmarks

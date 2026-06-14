@@ -144,7 +144,7 @@ For temporary snapshot viewing or management, you can also open:
 
 ## Usage Flow
 
-1. **Sign in**: Use email verification or GitHub login.
+1. **Sign in**: Support quick login without an account, email verification or GitHub login.
 2. **Import existing materials**: Import Chrome bookmarks to quickly bring your previously collected links into the current workspace.
 3. **Set up NewTab**: Enable the TabSyncer new tab page and add URL or snapshot shortcuts.
 4. **Organize open tabs**: Enter Tabout from NewTab and organize the tabs that are currently open.
