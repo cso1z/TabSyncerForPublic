@@ -51,7 +51,7 @@ When the browser becomes noisy, open Tabout from NewTab to review tabs across th
 
 Organized tabs can be saved as snapshots. After saving, use the home page to view all, temporary, grouped, and deleted snapshots, search them, rename them, merge them, restore them, or add more pages to an existing context.
 
-![Snapshot management](../resource/function.png)
+![Snapshot management](../resource/home.png)
 
 ## Supporting Capabilities
 
