@@ -2,6 +2,19 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+## Version 0.4.0
+### Highlights
+- Added support for saving arbitrary links and opening them from shortcuts, making NewTab more useful for daily websites and work entries.
+- Added support for saving intranet icon URLs, so internal systems, private services, and local tools can use more accurate shortcut icons.
+
+### Experience Improvements
+- Improved NewTab shortcut interactions for smoother access to frequent links and snapshot entries.
+- Refined the quick-open dialog and add-entry dialog effects on the new tab page.
+
+### Fixes and Improvements
+- Fixed state cleanup issues in the tab organization drawer for a more stable Tabout workflow.
+- Fixed an issue where users migrated to UUID accounts could not sign in with a password.
+
 ## Version 0.3.5
 ### Highlights
 - Brand new UUID account system that provides a lighter and clearer login and account management experience.

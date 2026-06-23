@@ -2,118 +2,93 @@
 
 [View in Chinese](../README.md) | [View in English](README.en.md)
 
-TabSyncer is a Chrome extension suite for managing browser workspaces. It is not only a snapshot saver. Its core loop connects the new tab entry point, Tabout for organizing currently open tabs, the home snapshot list with grouped views, and a relationship graph for rediscovering saved contexts.
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim)
+[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/ngfhokcebemclkfagnkgfficddkmcoim?label=version)](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim)
 
-The main flow is: start from NewTab, organize currently open tabs with Tabout, save valuable context as snapshots, then manage those snapshots from the home page through lists, groups, search, and the graph view.
+TabSyncer is a Chrome extension suite for managing browser workspaces. It is not only a snapshot saver. Its core loop connects the new tab entry point, Tabout for organizing currently open tabs, saved snapshot maintenance, and continuing work across devices.
+
+The main flow is: start from NewTab, organize currently open tabs with Tabout, save valuable context as snapshots, then manage those snapshots from the home page through lists, groups, and search.
 
 ---
 
-## Core Workflow
+## Core Capabilities
 
-Beyond that core loop, TabSyncer also lets you import the Chrome bookmarks you already have and export saved snapshots to local files after they have been organized, completing the full path of import, organization, preservation, and export.
+1. **Use NewTab As The Daily Work Entry**
 
-### 1. Import Chrome Bookmarks: Bring Existing Materials Into The Workspace
+   Keep frequent links, snapshot entries, and work-continuity prompts on the new tab page. TabSyncer supports arbitrary saved links, making the browser's daily work entry more focused.
 
-If you have already accumulated a large set of bookmarks in Chrome, you can import them directly into TabSyncer and use them as the starting point for further organization, enrichment, and long-term preservation.
+2. **Organize Currently Open Tabs**
 
-![Import Chrome bookmarks](../resource/import-chrome-bookmarks.png)
+   Use Tabout to review, filter, and organize open tabs, handle duplicates, similar domains, and groups, then save the cleaned-up result.
 
-### 2. NewTab: The Browser Entry Point
+3. **Save Browser Workspaces**
 
-TabSyncer can turn Chrome's new tab page into a lightweight workspace:
+   Save the current tab, current window, all windows, or split windows into separate snapshots, turning temporary browser sessions into contexts you can return to later.
 
-- Pin frequently used URL shortcuts
-- Pin frequently used snapshot shortcuts
-- Preview and reopen tabs from a snapshot shortcut
-- Continue an unfinished organizer draft
-- See recommended snapshots you may want to return to
-- Jump into tab organization based on the current window state
+4. **Manage And Maintain Snapshots**
+
+   Group, search, restore, and enrich snapshots with additional pages so they become maintainable project contexts instead of one-time archives.
+
+5. **Continue Work Across Devices**
+
+   After signing in with the same account, snapshots and work contexts can sync across office desktops, home computers, laptops, and other devices.
+
+## Product Workflow
+
+### 1. Start From NewTab
+
+TabSyncer can turn Chrome's new tab page into a lightweight workspace that brings frequent links, snapshot entries, work-continuity prompts, and the open-tab organizer together. Frequent websites and work entry points can also be saved as clearer shortcuts.
 
 ![NewTab workspace](../resource/newtab.png)
 
-### 3. Tabout: Organize Currently Open Tabs
+### 2. Organize Open Tabs With Tabout
 
-The NewTab organizer focuses on the tabs that are open right now:
-
-- Review tabs across the current window and other windows
-- Organize by window, groups, similar domains, and duplicate pages
-- Pick tabs to keep and close tabs you no longer need
-- Save organized selections as new snapshots
-- Resume an unfinished organization draft
-
-This solves the moment when the browser has become too noisy and you need to turn the current mess back into a clean workspace.
+When the browser becomes noisy, open Tabout from NewTab to review tabs across the current window and other windows, organize them by window, group, similar domain, and duplicate page, then decide what should be kept.
 
 ![Tabout open-tab management](../resource/tabout.png)
 
-### 4. Home: Snapshot List, Groups, And Long-Term Management
+### 3. Save And Manage Snapshots
 
-The home page is where saved snapshots become durable knowledge:
+Organized tabs can be saved as snapshots. After saving, use the home page to view all, temporary, grouped, and deleted snapshots, search them, rename them, merge them, restore them, or add more pages to an existing context.
 
-- View snapshots by all, temporary, group, and trash views
-- Manage snapshot groups and grouped snapshot lists
-- Search by snapshot name, tab title, URL, and date range
-- Rename, delete, restore, merge, and batch-manage snapshots
-- Add more web pages to an existing snapshot
-- Add a snapshot or a tab inside a snapshot back to NewTab shortcuts
+![Snapshot management](../resource/function.png)
 
-This solves what happens after saving: finding, archiving, merging, and continuing to maintain the context.
+## Supporting Capabilities
 
-![Home snapshot list and groups](../resource/home.png)
+- **Import Chrome bookmarks**: Bring existing materials into TabSyncer as a starting point for organization.
+- **Export snapshots to local files**: Back up, migrate, or keep snapshots offline.
+- **Relationship graph**: Rediscover related snapshots and contexts from a graph-based view.
+- **Enhanced shortcuts**: Configure clearer entries and icons for frequent websites and work entry points.
+- **Recycle bin recovery**: Restore deleted snapshots individually or in batches.
+- **Multi-language UI**: Cover core actions, dialogs, and interface prompts with built-in localized copy.
 
-### 5. Relationship Graph: Rediscover Snapshot Connections
-
-TabSyncer also provides a snapshot relationship graph:
-
-- Explore snapshots as a connected graph
-- Use tags, titles, and URLs to surface related snapshots
-- Revisit project research, study material, and long-running browser contexts
-
-This makes snapshots more than a flat list. They can be rediscovered through relationships.
+Relationship graph example:
 
 ![Snapshot relationship graph](../resource/contextgraph.png)
-
-### 6. Export Snapshots To Local Files: Take Preserved Results With You
-
-Organized snapshots do not have to stay only inside TabSyncer. You can export them to local files for backup, migration, or offline keeping, which closes the loop for this workspace flow.
-
-![Export snapshots to local files](../resource/export-snapshot-local.png)
-
----
-
-## Key Features
-
-- **One-click snapshots**: Save the current tab, current window, all windows, or split each window into its own snapshot.
-- **NewTab workspace**: Search, shortcuts, snapshot entries, and work-continuity prompts in one place.
-- **Tabout open-tab management**: Organize currently open tabs, handle duplicates and groups, then save the result.
-- **Import Chrome bookmarks**: Import existing Chrome bookmarks into TabSyncer as the starting point for further organization and preservation.
-- **Snapshot list and groups**: Manage snapshots by views and groups for long-term storage.
-- **Snapshot relationship graph**: Understand saved contexts from a relationship-based view.
-- **Add pages to existing snapshots**: Add an open tab or manually entered URL into an existing snapshot.
-- **Export snapshots to local files**: Export snapshots to local files for backup, migration, or offline keeping.
-- **Multi-device sync**: Sign in with the same account and sync snapshots across devices.
-- **Shortcut maintenance**: Add URLs, snapshots, and individual saved pages to NewTab shortcuts.
-- **Recycle bin recovery**: Deleted snapshots are recoverable individually or in batches.
-- **Multi-language UI**: Core actions, dialogs, and prompts support multiple languages.
 
 ---
 
 ## Use Cases
 
-### Work Across Devices
+1. **Continue Work Across Devices**
 
-Save a set of work tabs at the office, sign in at home, and restore the same context without hunting every page down again.
+   Save a set of work tabs at the office, sign in at home, and restore the same context without hunting every page down again.
 
-### Clean Up A Noisy Browser
+2. **Preserve Project Contexts**
 
-Open Tabout from NewTab, organize currently open tabs, close duplicates, and save the important context as a snapshot.
+   Save docs, dashboards, repositories, test environments, and design references as project snapshots that can keep growing over time.
 
-### Project Research
+3. **Start Each Day From NewTab**
 
-Save docs, dashboards, repositories, test environments, and design references as project snapshots that can keep growing over time.
+   Put frequent websites, project snapshots, and work entries you want to continue on NewTab so you can return to work faster after opening the browser.
 
-### Rediscover Past Context
+4. **Clean Up A Noisy Browser**
 
-Use grouped snapshot lists on the home page, or open the graph view to find related historical material.
+   Open Tabout from NewTab, organize currently open tabs, close duplicates, and save the important context as a snapshot.
+
+5. **Rediscover Past Context**
+
+   Use grouped snapshot lists on the home page, or open the graph view to find related historical material.
 
 ---
 
@@ -139,20 +114,6 @@ The recommended way is to install TabSyncer directly from Chrome Web Store:
 For temporary snapshot viewing or management, you can also open:
 
 [https://www.joker.blue/tab/main](https://www.joker.blue/tab/main)
-
----
-
-## Usage Flow
-
-1. **Sign in**: Support quick login without an account, email verification or GitHub login.
-2. **Import existing materials**: Import Chrome bookmarks to quickly bring your previously collected links into the current workspace.
-3. **Set up NewTab**: Enable the TabSyncer new tab page and add URL or snapshot shortcuts.
-4. **Organize open tabs**: Enter Tabout from NewTab and organize the tabs that are currently open.
-5. **Save snapshots**: Save the current window, all windows, or organized selections as snapshots.
-6. **Manage snapshots**: Use the home page list, groups, search, merge, and recovery tools.
-7. **Open the graph**: Use the relationship graph to understand how snapshots connect.
-8. **Export to local files**: Export organized snapshots to local files for backup, migration, or offline keeping.
-9. **Continue work**: Restore snapshots from NewTab shortcuts or the home page.
 
 ---
 
