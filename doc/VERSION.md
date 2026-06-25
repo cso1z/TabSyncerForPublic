@@ -2,6 +2,15 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+## Version 0.4.5
+### Hightlights
+- Custom icons are supported for quick access on the new tab page.
+- The snapshot feature has been enhanced with a notes function.
+- Improved UI effects on the page.
+- Fixed known issues.
+
+---
+
 ## Version 0.4.0
 ### Highlights
 - Added support for saving arbitrary links and opening them from shortcuts, making NewTab more useful for daily websites and work entries.
@@ -15,6 +24,8 @@
 - Fixed state cleanup issues in the tab organization drawer for a more stable Tabout workflow.
 - Fixed an issue where users migrated to UUID accounts could not sign in with a password.
 
+---
+
 ## Version 0.3.5
 ### Highlights
 - Brand new UUID account system that provides a lighter and clearer login and account management experience.
@@ -27,7 +38,7 @@
 - Strengthened data operation permission protection and interface parameter verification.
 - Improved the stability of tag organization, snapshot management, and page state synchronization.
 
-
+---
 
 ## Version 0.3.0
 ### Highlights
@@ -35,12 +46,16 @@
 - Added support for exporting snapshots to local files
 - Other optimizations
 
+---
+
 ## Version 0.2.5
 ### Highlights
 - NewTab now lets you continue unfinished grouping work and restore tabs that were closed during the previous session
 - Snapshot shortcuts can detect the same page that is already open and provide direct "Opened / Jump to" actions
 - The relationship graph can now be displayed directly on the home page for smoother snapshot revisit workflows
 - Improved multi-language support across NewTab, Tabout, and the relationship graph
+
+---
 
 ## Version 0.2.0
 TabSyncer v0.2.0 was a major update. It was no longer just a snapshot list tool, but a more complete workflow built around current browser work, long-term snapshots, and contextual relationships.
@@ -51,6 +66,8 @@ TabSyncer v0.2.0 was a major update. It was no longer just a snapshot list tool,
 - Added a richer home snapshot list and grouped views for long-term organization and retrieval
 - Added the knowledge graph / relationship graph to explore contextual links between snapshots and pages
 - Added GitHub sign-in as a foundation for the account system, data sync, and multi-device workflows
+
+---
 
 ## Version 0.0.3
 ### Major Optimizations
@@ -64,6 +81,8 @@ TabSyncer v0.2.0 was a major update. It was no longer just a snapshot list tool,
 - **Snapshot List Loading Animation Optimization**: On refresh or first load, the snapshot list area shows a loading animation consistent with the empty state style. The animation supports custom images and fun tips for a better waiting experience.
 - **Less Prominent 'Load More' Button**: The 'Load More' button is visually lighter, less distracting but still clickable, avoiding competition with main content. The 'Loading' button matches the style and is less prominent but still recognizable when disabled.
 
+---
+
 ## Version 0.0.2
 ### New Features
 - **Snapshot Search**
@@ -74,6 +93,8 @@ TabSyncer v0.2.0 was a major update. It was no longer just a snapshot list tool,
 
 ### Bug Fixes
 - Fixed known issues
+
+---
 
 ## Version 0.0.1
 ### New Features
@@ -89,6 +110,8 @@ TabSyncer v0.2.0 was a major update. It was no longer just a snapshot list tool,
 ### Bug Fixes
 - Fixed known issues
 - Enhanced overall stability
+
+---
 
 ## Version 0.0.0
 
