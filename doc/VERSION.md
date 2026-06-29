@@ -2,6 +2,20 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+## Version 0.5.0
+
+### Hightlights
+
+- Optimized new tab search suggestions with quick search engine switching and smoother search engine interaction
+- Tabout tab organizer now identifies the current page, automatically marks it, and prevents accidental closure
+- Reduced bundle size
+
+### Fixes and Improvements
+
+- Fixed new tab page white screen on startup and redundant full-index sync for search
+- Improved search suggestion display and URL parsing accuracy
+- Enhanced backend API consistency and stability
+
 ## Version 0.4.5
 ### Hightlights
 - Custom icons are supported for quick access on the new tab page.
