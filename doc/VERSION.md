@@ -2,6 +2,22 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+## Version 0.5.5
+
+### Highlights
+- **Brand-new Resource Discovery page** for browsing curated themes and resources
+- Added workspace entry on the home page with improved two-way navigation between newtab and home
+- Settings and user account entries moved into the NavBar dropdown menu for a cleaner interface
+- Extension-only features in the web version now show a disabled tooltip to reduce accidental interactions
+- Added version changelog view so users can review update history at any time
+
+### Fixes and Improvements
+- Improved GitHub login redirect feedback — failed login now correctly navigates to the error page with complete i18n copy
+- Enhanced interaction experience for expanding snapshot tab lists
+- Unified navigation routing logic under NavBar management for improved stability
+
+---
+
 ## Version 0.5.0
 
 ### Hightlights
