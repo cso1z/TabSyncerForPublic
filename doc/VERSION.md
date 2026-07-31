@@ -2,6 +2,25 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+## Version v0.6.0 
+
+### Highlights
+
+- Improved Tabout with a clearer distinction between the tab-based Keep area and content-based Collections
+- Added support for collapsing the right-side organization panel and improved search, highlighting, duplicate detection, and closing actions
+- Redesigned the extension popup with quick actions for saving different tab ranges and opening the workspace, tab organizer, or snapshot manager
+- Added customizable popup shortcuts, with sign-in and quick trial options for signed-out users
+- Improved the “Continue directly” sign-in flow so users can start immediately after switching to it
+
+### Fixes & Improvements
+
+- Strengthened close protection for the current extension page, pinned tabs, and retained tabs
+- Fixed state synchronization after tabs are opened, closed, or reopened
+- Improved restoration of unfinished organization sessions and real-time tab updates
+- Improved cross-window duplicate detection and “Close others” behavior
+- Fixed New Tab shortcuts being lost after merging snapshots
+- Improved context menu actions, localization, and operation feedback
+- 
 ## Version 0.5.5
 
 ### Highlights

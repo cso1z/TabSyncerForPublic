@@ -2,8 +2,10 @@
 
 [查看中文版](README.md) | [View in English](doc/README.en.md)
 
+[![官方网站](https://img.shields.io/badge/Official%20Website-Open-16A34A)](https://www.joker.blue/tab/website)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim?hl=zh-CN&utm_source=tabsyncer-readme)
 [![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/ngfhokcebemclkfagnkgfficddkmcoim?label=version)](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim?hl=zh-CN&utm_source=tabsyncer-readme)
+[![版本说明](https://img.shields.io/badge/Version%20Notes-View-64748B)](doc/VERSION.zh.md)
 
 TabSyncer 是一套围绕浏览器工作现场的 Chrome 扩展工具。它不只是把标签页保存成快照，而是把「打开浏览器后的入口」「当前已打开 Tab 的整理」「历史快照的保存与维护」「跨设备继续工作」串成一个完整闭环。
 
